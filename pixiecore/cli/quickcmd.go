@@ -95,6 +95,8 @@ func ubuntuRecipe(parent *cobra.Command) {
 		"xenial",
 		"yakkety",
 		"zesty",
+		"artful",
+		"bionic",
 	}
 
 	ubuntuCmd := &cobra.Command{
